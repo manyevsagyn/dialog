@@ -1,0 +1,25 @@
+.header {
+  -webkit-box-shadow: 0 5px 20px rgba(28, 28, 28, 0.1);
+          box-shadow: 0 5px 20px rgba(28, 28, 28, 0.1);
+}
+.header__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 17px 0;
+  border-bottom: 1px solid rgba(222, 222, 255, 0.3137254902);
+}
+.header__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+}
+.header__social-link svg path {
+  fill: #e6514a;
+}

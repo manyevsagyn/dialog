@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700;800;900&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "montserrat", sans-serif;
+  font-weight: 800;
+}
+.container{
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.red{
+  color: #E6514A;
+}
+.btn{
+  padding: 16px 65px;
+  background: #E6514A;
+  border: none;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  transition: .5s;
+  &:hover{
+    transition: .5s;
+    background: #BE312B;
+  }
+}
+.suptitle{
+  font-family: 'Lato',sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #23283B;
+  text-align: center;
+  span{
+     position: relative;
+    &::before{
+      content: '';
+      width: 40px;
+      height: 1px;
+      background: #E6514A;
+      position: absolute;
+      top: 7px;
+      left: -50px;
+    }
+  }
+}
+.title{
+  font-size: 48px;
+  text-align: center;
+  color: #23283B;
+  margin-top: 20px;
+}
+
+@import "header";
+@import "begin";
+@import "video";
+@import "study";
+@import "overlay";
+@import "license";
+@import "service";
